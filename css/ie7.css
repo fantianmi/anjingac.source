@@ -1,0 +1,15 @@
+html,body {
+	height:100%;
+	overflow:hidden
+}
+#splash,#content {
+	display:none !important
+}
+.outdated-browser {
+	left:20%;
+	position:absolute;
+	text-align:center;
+	top:50px;
+	width:60%;
+	z-index:5000
+}

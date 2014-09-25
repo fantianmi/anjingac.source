@@ -1,0 +1,36 @@
+#table_c tr td{border:5px solid #EEEEEE}
+#table_d tr td{border:5px solid #EEEEEE}
+#table_e tr td{border:2.5px solid #EEEEEE}
+#table_f tr td{border:2.5px solid #EEEEEE}
+#table_g tr td{border:2.5px solid #EEEEEE}
+
+#table_e a{color:#fff}
+#table_f a{color:#fff}
+#table_g a{color:#fff}
+
+#table_e img{cursor: pointer;
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+filter: gray;}
+
+#table_e img:hover{cursor: pointer;
+-webkit-filter: grayscale(0%);
+}
+
+
+
+#line3 p{font-size:12px}
+#line3 h5{font-size:14px}
+
+/*picwall 1*/
+.picwall1{float:left}
+
+[class*="col-"] {
+padding-top: 15px;
+padding-bottom: 15px;
+border: 5px solid #EEEEEE;
+border: 5px solid rgba(238,238,238,.2);
+}

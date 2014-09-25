@@ -1,0 +1,41 @@
+body {
+	color:#000 !important;
+	font:normal 1em/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+a {
+	color:#000 !important
+}
+iframe {
+	display:none !important
+}
+img {
+	border:0;
+	display:inline-block;
+	height:auto;
+	max-width:100%;
+	width:auto;
+	-ms-interpolation-mode:bicubic
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:1.2em;
+	margin:0;
+	padding:0
+}
+hr {
+	border-top:1px solid #000;
+	margin:40px 0
+}
+#splash,.mobile-menu-toggle,.mobile-menu,.menu-toggle,.menu,.footer .text-small,.artist-resources,.header-spheres-menu,.blog-menu,a.logo i,svg,.gallery,.gallery-home,.footer {
+	display:none !important
+}
+.header-home {
+	height:auto !important
+}
+.header-home .image {
+	margin:30px 0;
+	max-height:none !important;
+	width:50%
+}
+.page {
+	margin-top:0 !important
+}

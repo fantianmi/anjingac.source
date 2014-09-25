@@ -1,0 +1,168 @@
+		.accent {
+			color: #92b6c7;
+		}
+		.accentbg {
+			background-color: #92b6c7;
+		}
+
+		::selection {
+			background: transparent;
+			color: #92b6c7;
+		}
+		::-moz-selection {
+			background: transparent;
+			color: #92b6c7;
+		}
+
+		a,
+		#artist-menu-toggle:hover,
+		body.show-artist-menu #artist-menu-toggle:hover,
+		#main-menu-toggle:hover,
+		body.show-main-menu #main-menu-toggle:hover,
+		#main-menu > div .nav ul li a:hover,
+		#main-menu > div .nav ul li.active a,
+		.mobile-menu li.active a,
+		.artist-resources-toggle:hover,
+		.blog-item h5,
+		.footer .nav ul li a:hover,
+		.footer .nav ul li.active a,
+		strong.color {
+			color: #92b6c7;
+		}
+		button,
+		a.btn,
+		div.divider,
+		.mobile-menu-toggle i,
+		#main-menu > div .location p i.open,
+		.footer p i.open {
+			background-color: #92b6c7;
+		}
+		.header-menu li a:hover {
+			color: #92b6c7;
+		}
+		.blog-menu li.active a,
+		.header-menu li.active a {
+			border-color: #92b6c7;
+			color: #92b6c7;
+		}
+		.header-spheres-menu li.active a i .icon,
+		.header-spheres-menu li a:hover i .icon,
+		.gallery i:hover .icon,
+		.gallery ul.gallery-menu li:hover i .icon,
+		.gallery-home ul.gallery-menu li:hover i .icon,
+		.testimonials ul.arrows-menu li:hover i .icon,
+		.icon,
+    	.site-credit .bolt svg *
+   		{
+			fill: #92b6c7;
+		}
+		
+		.header-spheres-menu li.active a i .beauty.icon,
+		.header-spheres-menu li a:hover i .beauty.icon,
+		.gallery i:hover .beauty.icon,
+		.gallery ul.gallery-menu li:hover i .beauty.icon,
+		.gallery-home ul.gallery-menu li:hover i .beauty.icon,
+		.testimonials ul.arrows-menu li:hover i .beauty.icon,
+		.beauty.icon {
+			fill: #4ca8a8;
+		}
+
+		
+		.header-spheres-menu li.active a i .business-innovation.icon,
+		.header-spheres-menu li a:hover i .business-innovation.icon,
+		.gallery i:hover .business-innovation.icon,
+		.gallery ul.gallery-menu li:hover i .business-innovation.icon,
+		.gallery-home ul.gallery-menu li:hover i .business-innovation.icon,
+		.testimonials ul.arrows-menu li:hover i .business-innovation.icon,
+		.business-innovation.icon {
+			fill: #1ed4e9;
+		}
+
+		
+		.header-spheres-menu li.active a i .craft.icon,
+		.header-spheres-menu li a:hover i .craft.icon,
+		.gallery i:hover .craft.icon,
+		.gallery ul.gallery-menu li:hover i .craft.icon,
+		.gallery-home ul.gallery-menu li:hover i .craft.icon,
+		.testimonials ul.arrows-menu li:hover i .craft.icon,
+		.craft.icon {
+			fill: #d02c39;
+		}
+
+		
+		.header-spheres-menu li.active a i .design-architecture.icon,
+		.header-spheres-menu li a:hover i .design-architecture.icon,
+		.gallery i:hover .design-architecture.icon,
+		.gallery ul.gallery-menu li:hover i .design-architecture.icon,
+		.gallery-home ul.gallery-menu li:hover i .design-architecture.icon,
+		.testimonials ul.arrows-menu li:hover i .design-architecture.icon,
+		.design-architecture.icon {
+			fill: #685dbd;
+		}
+
+		
+		.header-spheres-menu li.active a i .education.icon,
+		.header-spheres-menu li a:hover i .education.icon,
+		.gallery i:hover .education.icon,
+		.gallery ul.gallery-menu li:hover i .education.icon,
+		.gallery-home ul.gallery-menu li:hover i .education.icon,
+		.testimonials ul.arrows-menu li:hover i .education.icon,
+		.education.icon {
+			fill: #a3acbd;
+		}
+
+		
+		.header-spheres-menu li.active a i .environment.icon,
+		.header-spheres-menu li a:hover i .environment.icon,
+		.gallery i:hover .environment.icon,
+		.gallery ul.gallery-menu li:hover i .environment.icon,
+		.gallery-home ul.gallery-menu li:hover i .environment.icon,
+		.testimonials ul.arrows-menu li:hover i .environment.icon,
+		.environment.icon {
+			fill: #a3b244;
+		}
+
+		
+		.header-spheres-menu li.active a i .health.icon,
+		.header-spheres-menu li a:hover i .health.icon,
+		.gallery i:hover .health.icon,
+		.gallery ul.gallery-menu li:hover i .health.icon,
+		.gallery-home ul.gallery-menu li:hover i .health.icon,
+		.testimonials ul.arrows-menu li:hover i .health.icon,
+		.health.icon {
+			fill: #e17729;
+		}
+
+		
+		.header-spheres-menu li.active a i .international.icon,
+		.header-spheres-menu li a:hover i .international.icon,
+		.gallery i:hover .international.icon,
+		.gallery ul.gallery-menu li:hover i .international.icon,
+		.gallery-home ul.gallery-menu li:hover i .international.icon,
+		.testimonials ul.arrows-menu li:hover i .international.icon,
+		.international.icon {
+			fill: #dda524;
+		}
+
+		
+		.header-spheres-menu li.active a i .social-justice.icon,
+		.header-spheres-menu li a:hover i .social-justice.icon,
+		.gallery i:hover .social-justice.icon,
+		.gallery ul.gallery-menu li:hover i .social-justice.icon,
+		.gallery-home ul.gallery-menu li:hover i .social-justice.icon,
+		.testimonials ul.arrows-menu li:hover i .social-justice.icon,
+		.social-justice.icon {
+			fill: #4a3425;
+		}
+
+		
+		.header-spheres-menu li.active a i .technology.icon,
+		.header-spheres-menu li a:hover i .technology.icon,
+		.gallery i:hover .technology.icon,
+		.gallery ul.gallery-menu li:hover i .technology.icon,
+		.gallery-home ul.gallery-menu li:hover i .technology.icon,
+		.testimonials ul.arrows-menu li:hover i .technology.icon,
+		.technology.icon {
+			fill: #5886dc;
+		}
+		
