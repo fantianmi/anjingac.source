@@ -308,7 +308,7 @@ body.show-main-menu .menu-overlay {
     background: #fff;
     bottom: 0;
     display: none;
-    height: 673px;
+    height: 720px;
     left: 50px;
     position: fixed;
     right: 50px;
@@ -1046,13 +1046,14 @@ a.logo:hover i .logo-tint {
     margin: 20px 10px 30px 10px;
   }
 }
-.footer .nav ul {
+.footer .nav ul { 
+  width:100%;
   list-style: none;
   margin: 0;
   padding:0;
 	
 }
-.footer .nav ul li {
+.footer .nav ul li { text-align:center;
   display: inline-block;
 	width:19%;
 }
@@ -1490,11 +1491,7 @@ a.logo:hover i .logo-tint {
 	max-width:320px;
 	text-align:center
 }
-.two-columns .right>div .quick-note .fancy-shadow {
-	margin-left:auto;
-	margin-right:auto;
-	max-width:280px
-}
+
 .two-columns .right>div .quick-note h3 {
 	font-size:24px
 }
@@ -1513,31 +1510,20 @@ a.logo:hover i .logo-tint {
 	padding-top:0;
 	text-transform:uppercase
 }
-.two-columns .right>div .testimonial .fancy-shadow {
-	float:right;
-	position:relative;
-	top:-40px;
-	width:150px
-}
+
 .two-columns .right>div .testimonial .read-more {
 	font-size:14px;
 	font-weight:700;
 	text-transform:uppercase
 }
-.two-columns .fancy-shadow {
-	width:100%
-}
-.two-columns .fancy-shadow img {
-	width:100%
-}
+
+
 .two-columns .right-empty {
 	float:left;
 	padding:180px 0;
 	width:32%
 }
-.two-columns .right-empty .fancy-shadow {
-	width:auto
-}
+
 .two-columns p.inline-links a {
 	font-size:13px
 }
@@ -1770,9 +1756,7 @@ a.logo:hover i .logo-tint {
 	margin:0 5% 0 0;
 	width:20%
 }
-.leadership-left div.fancy-shadow img {
-	width:100%
-}
+
 .leadership-right {
 	float:left;
 	width:75%
@@ -1870,25 +1854,8 @@ a.logo:hover i .logo-tint {
 	padding:30px 0 0 0;
 	max-width:340px
 }
-.exhibition-item .fancy-shadow {
-	margin-left:40px;
-	width:auto
-}
-.exhibition-item .fancy-shadow::after {
-	background:transparent url("../img/theme/header-gradient.png?20140429") bottom left no-repeat;
-	bottom:0;
-	content:'';
-	display:block;
-	height:75%;
-	left:0;
-	pointer-events:none;
-	position:absolute;
-	width:75%;
-	-moz-background-size:100% 100%;
-	-o-background-size:100% 100%;
-	-webkit-background-size:100% 100%;
-	background-size:100% 100%
-}
+
+
 .exhibition-item .info {
 	float:left;
 	margin-bottom:-40px;
@@ -1944,9 +1911,7 @@ a.logo:hover i .logo-tint {
 	padding:30px 0 70px 0;
 	width:28.333333%
 }
-.exhibition-item-row-full .exhibition-item div.fancy-shadow img {
-	width:100%
-}
+
 @media all and (max-height:540px),all and (max-width:1024px) {
 	.exhibition-item-row {
 	overflow:hidden
@@ -2738,11 +2703,7 @@ body.show-artist-resources .artist-resources-toggle strong i svg {
 	margin-right:6%;
 	width:31%
 }
-.testimonials .testimonial .testimonial-left .fancy-shadow {
-	float:right;
-	margin-top:30px;
-	width:150px
-}
+
 .testimonials .testimonial .testimonial-right {
 	float:left;
 	width:62%
@@ -2804,10 +2765,7 @@ body.show-artist-resources .artist-resources-toggle strong i svg {
 	float:none;
 	width:auto
 }
-.testimonials .testimonial .testimonial-left .fancy-shadow,.testimonials .testimonial .testimonial-right .fancy-shadow {
-	float:none;
-	margin-top:0
-}
+
 }.sponsor-item {
 	clear:both;
 	overflow:hidden;
@@ -3114,7 +3072,10 @@ i.large-icon.large-icon-gray .icon {
 .no-text-transform {
 	text-transform:none !important
 }
-
+div.fancy-shadow {
+	display:inline-block;
+	position:relative
+}
 div.fancy-shadow img {
 	display:block;
 	position:relative;
@@ -3138,3 +3099,103 @@ div.fancy-shadow::before {
 	-webkit-background-size:100% 100%;
 	background-size:100% 100%
 }
+div.fancy-shadow.round a {
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%
+}
+div.fancy-shadow.round img {
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%
+}
+div.fancy-shadow i {
+	height:38px;
+	left:50%;
+	margin:-19px 0 0 -27px;
+	position:absolute;
+	top:50%;
+	width:54px
+}
+div.fancy-shadow i .icon {
+	fill:#fff
+}
+div.fancy-shadow a {
+	background:#2c2d33;
+	display:block
+}
+div.fancy-shadow a:hover img {
+	opacity:0.5
+}
+.two-columns .right>div .quick-note .fancy-shadow {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:280px
+}
+.two-columns .right>div .testimonial .fancy-shadow {
+	float:right;
+	position:relative;
+	top:-40px;
+	width:150px
+}
+.two-columns .fancy-shadow {
+	width:100%
+}
+
+.two-columns .fancy-shadow img {
+	width:100%
+}
+.two-columns .right-empty .fancy-shadow {
+	width:auto
+}
+.leadership-left div.fancy-shadow img {
+	width:100%
+}
+.exhibition-item .fancy-shadow {
+	margin-left:40px;
+	width:auto
+}
+.exhibition-item .fancy-shadow::after {
+	background:transparent url("../images/fancy-shadow.png") bottom left no-repeat;
+	bottom:0;
+	content:'';
+	display:block;
+	height:75%;
+	left:0;
+	pointer-events:none;
+	position:absolute;
+	width:75%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%
+}
+.exhibition-item-row-full .exhibition-item div.fancy-shadow img {
+	width:100%
+}
+
+.testimonials .testimonial .testimonial-left .fancy-shadow {
+	float:right;
+	margin-top:30px;
+	width:150px
+}
+.testimonials .testimonial .testimonial-left .fancy-shadow,.testimonials .testimonial .testimonial-right .fancy-shadow {
+	float:none;
+	margin-top:0
+}
+
+div.spacer-large {
+	height:80px
+}
+div.spacer-medium {
+	height:40px
+}
+div.spacer-small {
+	height:10px
+}
+.clear {
+    clear: both;
+}
+
+
+
